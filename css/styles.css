@@ -1,0 +1,51 @@
+*{
+    margin:0
+}
+
+h1{
+    margin: 2%;
+    font-size: 2em;
+}
+
+h2{
+    margin: 1%;
+    font-size: 1.5em;
+}
+
+main{
+    margin: 1%;
+    column-count: 3;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    float: left;
+    margin: 1%;
+}
+
+#section1{
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+.barra{
+    position: relative;
+    display: flex;
+    padding: 0px;
+    list-style: none;
+    flex: 1;
+    margin-left: 1%;
+}
+
+@keyframes rotate {
+    0%   {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+img:hover{
+    width: 100px;
+}
